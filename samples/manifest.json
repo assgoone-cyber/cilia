@@ -1,0 +1,224 @@
+[
+  {
+    "id": "found_objects/264430__memuse__plastic-bag",
+    "path": "/samples/found_objects/264430__memuse__plastic-bag.mp3",
+    "category": "found_objects",
+    "displayName": "Plastic Bag"
+  },
+  {
+    "id": "found_objects/339961__vladnegrila__plastic-bag-rustle",
+    "path": "/samples/found_objects/339961__vladnegrila__plastic-bag-rustle.mp3",
+    "category": "found_objects",
+    "displayName": "Plastic Bag Rustle"
+  },
+  {
+    "id": "found_objects/365520__caitlin_100__plastic-bags-rustling",
+    "path": "/samples/found_objects/365520__caitlin_100__plastic-bags-rustling.mp3",
+    "category": "found_objects",
+    "displayName": "Plastic Bags Rustling"
+  },
+  {
+    "id": "found_objects/447918__breviceps__shuffle-cards",
+    "path": "/samples/found_objects/447918__breviceps__shuffle-cards.mp3",
+    "category": "found_objects",
+    "displayName": "Shuffle Cards"
+  },
+  {
+    "id": "found_objects/447926__breviceps__crunchy-paper",
+    "path": "/samples/found_objects/447926__breviceps__crunchy-paper.mp3",
+    "category": "found_objects",
+    "displayName": "Crunchy Paper"
+  },
+  {
+    "id": "found_objects/475434__o_ciz__bag-of-chips_1plastic-rustle",
+    "path": "/samples/found_objects/475434__o_ciz__bag-of-chips_1plastic-rustle.mp3",
+    "category": "found_objects",
+    "displayName": "Bag Of Chips 1Plastic Rustle"
+  },
+  {
+    "id": "found_objects/740225__fossarts__crumbling-up-foil-paper-2",
+    "path": "/samples/found_objects/740225__fossarts__crumbling-up-foil-paper-2.mp3",
+    "category": "found_objects",
+    "displayName": "Crumbling Up Foil Paper 2"
+  },
+  {
+    "id": "ice_brittle/464451__rvgerxini__ice-moving-in-glass",
+    "path": "/samples/ice_brittle/464451__rvgerxini__ice-moving-in-glass.mp3",
+    "category": "ice_brittle",
+    "displayName": "Ice Moving In Glass"
+  },
+  {
+    "id": "mechanisms_toys/208889__monotraum__toy-piano",
+    "path": "/samples/mechanisms_toys/208889__monotraum__toy-piano.mp3",
+    "category": "mechanisms_toys",
+    "displayName": "Toy Piano"
+  },
+  {
+    "id": "mechanisms_toys/336610__anthousai__music-box-wind-up-05",
+    "path": "/samples/mechanisms_toys/336610__anthousai__music-box-wind-up-05.mp3",
+    "category": "mechanisms_toys",
+    "displayName": "Music Box Wind Up 05"
+  },
+  {
+    "id": "mechanisms_toys/343670__framing_noise__8b_f_medium",
+    "path": "/samples/mechanisms_toys/343670__framing_noise__8b_f_medium.mp3",
+    "category": "mechanisms_toys",
+    "displayName": "8B F Medium"
+  },
+  {
+    "id": "mechanisms_toys/369405__flying_deer_fx__music-box-j",
+    "path": "/samples/mechanisms_toys/369405__flying_deer_fx__music-box-j.mp3",
+    "category": "mechanisms_toys",
+    "displayName": "Music Box J"
+  },
+  {
+    "id": "mechanisms_toys/415103__gusgus26__toy-piano-f-c",
+    "path": "/samples/mechanisms_toys/415103__gusgus26__toy-piano-f-c.mp3",
+    "category": "mechanisms_toys",
+    "displayName": "Toy Piano F C"
+  },
+  {
+    "id": "mechanisms_toys/445966__breviceps__wind-up-sound",
+    "path": "/samples/mechanisms_toys/445966__breviceps__wind-up-sound.mp3",
+    "category": "mechanisms_toys",
+    "displayName": "Wind Up Sound"
+  },
+  {
+    "id": "mechanisms_toys/451769__kyles__buddha-drone-music-box-roomy-plastic-click-switch-onoff",
+    "path": "/samples/mechanisms_toys/451769__kyles__buddha-drone-music-box-roomy-plastic-click-switch-onoff.mp3",
+    "category": "mechanisms_toys",
+    "displayName": "Buddha Drone Music Box Roomy Plastic Click Switch Onoff"
+  },
+  {
+    "id": "mechanisms_toys/483161__f-r-a-g-i-l-e__childrens-toy-musical-samples",
+    "path": "/samples/mechanisms_toys/483161__f-r-a-g-i-l-e__childrens-toy-musical-samples.mp3",
+    "category": "mechanisms_toys",
+    "displayName": "Childrens Toy Musical Samples"
+  },
+  {
+    "id": "mechanisms_toys/499771__handygaber__light-switch-click",
+    "path": "/samples/mechanisms_toys/499771__handygaber__light-switch-click.mp3",
+    "category": "mechanisms_toys",
+    "displayName": "Light Switch Click"
+  },
+  {
+    "id": "mechanisms_toys/584729__ambiabstract__switch-kick-click-wav",
+    "path": "/samples/mechanisms_toys/584729__ambiabstract__switch-kick-click-wav.mp3",
+    "category": "mechanisms_toys",
+    "displayName": "Switch Kick Click Wav"
+  },
+  {
+    "id": "mechanisms_toys/613091__f-r-a-g-i-l-e__broken-music-box-2",
+    "path": "/samples/mechanisms_toys/613091__f-r-a-g-i-l-e__broken-music-box-2.mp3",
+    "category": "mechanisms_toys",
+    "displayName": "Broken Music Box 2"
+  },
+  {
+    "id": "mechanisms_toys/713997__trp__130111-light-switches-clicks-dimmer-slides-hotel-london-on",
+    "path": "/samples/mechanisms_toys/713997__trp__130111-light-switches-clicks-dimmer-slides-hotel-london-on.mp3",
+    "category": "mechanisms_toys",
+    "displayName": "130111 Light Switches Clicks Dimmer Slides Hotel London On"
+  },
+  {
+    "id": "mouth_body/188797__qubodup__mouth-pop",
+    "path": "/samples/mouth_body/188797__qubodup__mouth-pop.mp3",
+    "category": "mouth_body",
+    "displayName": "Mouth Pop"
+  },
+  {
+    "id": "mouth_body/704175__magicjoshua__quiet-lip-smack",
+    "path": "/samples/mouth_body/704175__magicjoshua__quiet-lip-smack.mp3",
+    "category": "mouth_body",
+    "displayName": "Quiet Lip Smack"
+  },
+  {
+    "id": "wood_taps/506718__jackyyang09__wooden-hit",
+    "path": "/samples/wood_taps/506718__jackyyang09__wooden-hit.mp3",
+    "category": "wood_taps",
+    "displayName": "Wooden Hit"
+  },
+  {
+    "id": "kicks/MckSamplePacks__DR5__BD__001_Ambient_Kick",
+    "path": "/samples/kicks/MckSamplePacks__DR5__BD__001_Ambient_Kick.wav",
+    "category": "kicks",
+    "displayName": "Ambient Kick"
+  },
+  {
+    "id": "kicks/MckSamplePacks__DR5__BD__002_Bright_Kick",
+    "path": "/samples/kicks/MckSamplePacks__DR5__BD__002_Bright_Kick.wav",
+    "category": "kicks",
+    "displayName": "Bright Kick"
+  },
+  {
+    "id": "kicks/MckSamplePacks__DR5__BD__027_Soft_Kick_1",
+    "path": "/samples/kicks/MckSamplePacks__DR5__BD__027_Soft_Kick_1.wav",
+    "category": "kicks",
+    "displayName": "Soft Kick 1"
+  },
+  {
+    "id": "kicks/MckSamplePacks__DR5__BD__028_Soft_Kick_2",
+    "path": "/samples/kicks/MckSamplePacks__DR5__BD__028_Soft_Kick_2.wav",
+    "category": "kicks",
+    "displayName": "Soft Kick 2"
+  },
+  {
+    "id": "kicks/sample-pi__drums__one-shots__kick__drum_bass_soft",
+    "path": "/samples/kicks/sample-pi__drums__one-shots__kick__drum_bass_soft.flac",
+    "category": "kicks",
+    "displayName": "Drum Bass Soft"
+  },
+  {
+    "id": "hats/MckSamplePacks__DR5__HATS__001_Acoustic_Closed_Hi-hat",
+    "path": "/samples/hats/MckSamplePacks__DR5__HATS__001_Acoustic_Closed_Hi-hat.wav",
+    "category": "hats",
+    "displayName": "Acoustic Closed Hi Hat"
+  },
+  {
+    "id": "hats/MckSamplePacks__RX5__HATS__008_Jazz_HiHat_Closed",
+    "path": "/samples/hats/MckSamplePacks__RX5__HATS__008_Jazz_HiHat_Closed.wav",
+    "category": "hats",
+    "displayName": "Jazz Hihat Closed"
+  },
+  {
+    "id": "hats/MckSamplePacks__TR8__HATS__004_808_Closed_HiHat_Short",
+    "path": "/samples/hats/MckSamplePacks__TR8__HATS__004_808_Closed_HiHat_Short.wav",
+    "category": "hats",
+    "displayName": "808 Closed Hihat Short"
+  },
+  {
+    "id": "snares/MckSamplePacks__DR5__SD__004_Brush_Slap_Snare_1",
+    "path": "/samples/snares/MckSamplePacks__DR5__SD__004_Brush_Slap_Snare_1.wav",
+    "category": "snares",
+    "displayName": "Brush Slap Snare 1"
+  },
+  {
+    "id": "snares/MckSamplePacks__DR5__SD__035_Stick_Snare",
+    "path": "/samples/snares/MckSamplePacks__DR5__SD__035_Stick_Snare.wav",
+    "category": "snares",
+    "displayName": "Stick Snare"
+  },
+  {
+    "id": "snares/MckSamplePacks__DR5__SD__041_Ambient_Side_Stick",
+    "path": "/samples/snares/MckSamplePacks__DR5__SD__041_Ambient_Side_Stick.wav",
+    "category": "snares",
+    "displayName": "Ambient Side Stick"
+  },
+  {
+    "id": "percussion/MckSamplePacks__DR5__PERC__004_Sleigh_Bell",
+    "path": "/samples/percussion/MckSamplePacks__DR5__PERC__004_Sleigh_Bell.wav",
+    "category": "percussion",
+    "displayName": "Sleigh Bell"
+  },
+  {
+    "id": "percussion/MckSamplePacks__DR5__PERC__007_Wood_Block",
+    "path": "/samples/percussion/MckSamplePacks__DR5__PERC__007_Wood_Block.wav",
+    "category": "percussion",
+    "displayName": "Wood Block"
+  },
+  {
+    "id": "percussion/MckSamplePacks__RX5__MISC__004_Glass_Crash",
+    "path": "/samples/percussion/MckSamplePacks__RX5__MISC__004_Glass_Crash.wav",
+    "category": "percussion",
+    "displayName": "Glass Crash"
+  }
+]
