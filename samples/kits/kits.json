@@ -1,0 +1,58 @@
+{
+ "pads": [
+  "Kick",
+  "Kick 2",
+  "Snare",
+  "Clap",
+  "Closed hat",
+  "Open hat",
+  "Shaker",
+  "Rim",
+  "Low tom",
+  "Mid tom",
+  "High tom",
+  "Crash",
+  "Ride",
+  "Perc 1",
+  "Perc 2",
+  "FX"
+ ],
+ "kits": [
+  {
+   "id": "808",
+   "name": "808 Classic"
+  },
+  {
+   "id": "909",
+   "name": "909 House"
+  },
+  {
+   "id": "trap",
+   "name": "Trap"
+  },
+  {
+   "id": "lofi",
+   "name": "Lo-fi Dusty"
+  },
+  {
+   "id": "boombap",
+   "name": "Boom Bap"
+  },
+  {
+   "id": "acoustic",
+   "name": "Studio Acoustic"
+  },
+  {
+   "id": "electro",
+   "name": "Electro Pop"
+  },
+  {
+   "id": "house",
+   "name": "Deep House"
+  },
+  {
+   "id": "rock",
+   "name": "Rock Room"
+  }
+ ]
+}
