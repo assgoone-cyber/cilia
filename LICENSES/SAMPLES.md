@@ -7,10 +7,11 @@ Machine-readable provenance for every file (id, path, license, source URL, autho
 | Pack | Files | Size | License | Source |
 |---|---|---|---|---|
 | Specimens (found sounds, one-shots) | 37 | 16.2 MB | CC0 1.0 | Freesound / MckSamplePacks / sample-pi (see below) |
+| Found-object & micro one-shots (24 categories) | 144 | 0.6 MB | CC0 1.0 | original synthesis, `scripts/gen-found.mjs` |
 | Drum kits (9 generated kits × 16 pads) | 144 | 2.2 MB | CC0 1.0 | original synthesis, `scripts/gen-drums.mjs` |
 | Melodic instruments (60 General MIDI instruments) | 795 | 14.8 MB | CC BY 3.0 + MIT | FluidR3_GM via midi-js-soundfonts |
 
-The 10th drum kit ("Microscope") re-uses 16 of the CC0 specimens listed below.
+The "Microscope" kit re-uses 16 of the CC0 specimens listed below. The 11 found-object / micro kits (Kitchen Lab, Workshop, Desk, Nature Field, Street Find, Mouth & Body, Lab Glass, Operating Theatre, Petri Pulse, Dust & Fiber, Whisper Cell) use only the generated found-object one-shots.
 
 ## Attribution — FluidR3_GM instruments
 
@@ -81,6 +82,37 @@ The 10th drum kit ("Microscope") re-uses 16 of the CC0 specimens listed below.
 | Square Lead | `samples/inst/lead_1_square/` | 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96 | https://gleitz.github.io/midi-js-soundfonts/FluidR3_GM/lead_1_square-mp3/<Note>.mp3 |
 | Saw Lead | `samples/inst/lead_2_sawtooth/` | 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96 | https://gleitz.github.io/midi-js-soundfonts/FluidR3_GM/lead_2_sawtooth-mp3/<Note>.mp3 |
 
+## Found-object & micro one-shots (generated, CC0)
+
+Synthesised from scratch in JavaScript by `scripts/gen-found.mjs` — modal (damped-sine) resonators for glass/metal/wood/ceramic, filtered seeded noise for scrapes/cloth/breath, granular click clouds for rustles/crunch/gravel/dust, pitch-rising sine drops for drips/bubbles, and click trains for zippers/insect ticks, with contact-mic colouring. No recordings or third-party samples are used. Deterministic (seeded). Dedicated to the public domain under CC0 1.0.
+
+| Category | Files |
+|---|---|
+| Taps | `samples/found/taps/1.mp3` (Fingertip on table), `samples/found/taps/2.mp3` (Knuckle knock), `samples/found/taps/3.mp3` (Nail on phone case), `samples/found/taps/4.mp3` (Pen tip tap), `samples/found/taps/5.mp3` (Palm on thigh), `samples/found/taps/6.mp3` (Thumb on mic) |
+| Scrapes | `samples/found/scrapes/1.mp3` (Nail scrape on card), `samples/found/scrapes/2.mp3` (Chair leg drag), `samples/found/scrapes/3.mp3` (Sandpaper stroke), `samples/found/scrapes/4.mp3` (Comb teeth rake), `samples/found/scrapes/5.mp3` (Spoon scrape bowl), `samples/found/scrapes/6.mp3` (Brick grind) |
+| Rustles | `samples/found/rustles/1.mp3` (Leaf bundle), `samples/found/rustles/2.mp3` (Crisp packet), `samples/found/rustles/3.mp3` (Tissue paper), `samples/found/rustles/4.mp3` (Dry grass), `samples/found/rustles/5.mp3` (Coat pocket), `samples/found/rustles/6.mp3` (Bag rummage) |
+| Drips | `samples/found/drips/1.mp3` (Tap drip), `samples/found/drips/2.mp3` (Sink drop), `samples/found/drips/3.mp3` (Tiny drip), `samples/found/drips/4.mp3` (Bucket plink), `samples/found/drips/5.mp3` (Leaf drip), `samples/found/drips/6.mp3` (Cave drop) |
+| Glass | `samples/found/glass/1.mp3` (Wine glass ting), `samples/found/glass/2.mp3` (Jar lid clink), `samples/found/glass/3.mp3` (Test tube tap), `samples/found/glass/4.mp3` (Marble on glass), `samples/found/glass/5.mp3` (Bottle neck), `samples/found/glass/6.mp3` (Ice in glass) |
+| Metal | `samples/found/metal/1.mp3` (Pan hit), `samples/found/metal/2.mp3` (Spoon tap), `samples/found/metal/3.mp3` (Washer drop), `samples/found/metal/4.mp3` (Pipe ping), `samples/found/metal/5.mp3` (Tin can thud), `samples/found/metal/6.mp3` (Bike spoke pluck) |
+| Paper | `samples/found/paper/1.mp3` (Page flick), `samples/found/paper/2.mp3` (Paper tear), `samples/found/paper/3.mp3` (Crumple), `samples/found/paper/4.mp3` (Card snap), `samples/found/paper/5.mp3` (Envelope slap), `samples/found/paper/6.mp3` (Book riffle) |
+| Plastic | `samples/found/plastic/1.mp3` (Bottle squeeze), `samples/found/plastic/2.mp3` (Lid pop), `samples/found/plastic/3.mp3` (Ruler twang), `samples/found/plastic/4.mp3` (Cup crush), `samples/found/plastic/5.mp3` (Hollow box), `samples/found/plastic/6.mp3` (Pen click case) |
+| Wood | `samples/found/wood/1.mp3` (Chopstick clack), `samples/found/wood/2.mp3` (Desk knock), `samples/found/wood/3.mp3` (Pencil roll), `samples/found/wood/4.mp3` (Twig snap), `samples/found/wood/5.mp3` (Spoon on board), `samples/found/wood/6.mp3` (Drawer bump) |
+| Cloth | `samples/found/cloth/1.mp3` (Sleeve swish), `samples/found/cloth/2.mp3` (Denim rub), `samples/found/cloth/3.mp3` (Towel flap), `samples/found/cloth/4.mp3` (Sheet pull), `samples/found/cloth/5.mp3` (Pocket pat), `samples/found/cloth/6.mp3` (Wool brush) |
+| Breath | `samples/found/breath/1.mp3` (Short puff), `samples/found/breath/2.mp3` (Inhale), `samples/found/breath/3.mp3` (Exhale), `samples/found/breath/4.mp3` (Whisper "t"), `samples/found/breath/5.mp3` (Whisper "sh"), `samples/found/breath/6.mp3` (Blow on mic) |
+| Mouth clicks | `samples/found/mouth/1.mp3` (Tongue click), `samples/found/mouth/2.mp3` (Lip pop), `samples/found/mouth/3.mp3` (Tsk), `samples/found/mouth/4.mp3` (Cheek pop), `samples/found/mouth/5.mp3` (Teeth tick), `samples/found/mouth/6.mp3` (Kiss smack) |
+| Insect ticks | `samples/found/ticks/1.mp3` (Cricket tick), `samples/found/ticks/2.mp3` (Beetle step), `samples/found/ticks/3.mp3` (Cicada burst), `samples/found/ticks/4.mp3` (Wing flutter), `samples/found/ticks/5.mp3` (Mandible snap), `samples/found/ticks/6.mp3` (Clock tick) |
+| Ice & crunch | `samples/found/crunch/1.mp3` (Ice crack), `samples/found/crunch/2.mp3` (Snow step), `samples/found/crunch/3.mp3` (Cereal crunch), `samples/found/crunch/4.mp3` (Frost scrape), `samples/found/crunch/5.mp3` (Eggshell), `samples/found/crunch/6.mp3` (Ice cube drop) |
+| Gravel & stone | `samples/found/gravel/1.mp3` (Pebble clack), `samples/found/gravel/2.mp3` (Gravel step), `samples/found/gravel/3.mp3` (Sand pour), `samples/found/gravel/4.mp3` (Stone tumble), `samples/found/gravel/5.mp3` (Grit shake), `samples/found/gravel/6.mp3` (Rock thud) |
+| Keys & coins | `samples/found/keys/1.mp3` (Key jingle), `samples/found/keys/2.mp3` (Coin drop), `samples/found/keys/3.mp3` (Coin spin), `samples/found/keys/4.mp3` (Keyring tap), `samples/found/keys/5.mp3` (Coins in palm), `samples/found/keys/6.mp3` (Padlock snap) |
+| Zipper | `samples/found/zipper/1.mp3` (Zip up), `samples/found/zipper/2.mp3` (Zip down), `samples/found/zipper/3.mp3` (Short zip), `samples/found/zipper/4.mp3` (Bag zip), `samples/found/zipper/5.mp3` (Jacket zip tug), `samples/found/zipper/6.mp3` (Pencil case zip) |
+| Velcro | `samples/found/velcro/1.mp3` (Velcro rip), `samples/found/velcro/2.mp3` (Velcro short), `samples/found/velcro/3.mp3` (Velcro slow), `samples/found/velcro/4.mp3` (Strap tear), `samples/found/velcro/5.mp3` (Shoe strap), `samples/found/velcro/6.mp3` (Patch press) |
+| Switch clicks | `samples/found/switches/1.mp3` (Light switch), `samples/found/switches/2.mp3` (Mouse click), `samples/found/switches/3.mp3` (Keyboard key), `samples/found/switches/4.mp3` (Pen click), `samples/found/switches/5.mp3` (Toggle clunk), `samples/found/switches/6.mp3` (Relay click) |
+| Ceramic | `samples/found/ceramic/1.mp3` (Cup clink), `samples/found/ceramic/2.mp3` (Plate tap), `samples/found/ceramic/3.mp3` (Bowl ring), `samples/found/ceramic/4.mp3` (Mug thunk), `samples/found/ceramic/5.mp3` (Tile tick), `samples/found/ceramic/6.mp3` (Saucer spin) |
+| Lab & theatre | `samples/found/lab/1.mp3` (Monitor beep), `samples/found/lab/2.mp3` (Pipette squelch), `samples/found/lab/3.mp3` (Scissor snip), `samples/found/lab/4.mp3` (Tray clank), `samples/found/lab/5.mp3` (Forceps tick), `samples/found/lab/6.mp3` (Centrifuge whir) |
+| Dust & static | `samples/found/dust/1.mp3` (Dust crackle), `samples/found/dust/2.mp3` (Static pop), `samples/found/dust/3.mp3` (Mote tick), `samples/found/dust/4.mp3` (Fibre snap), `samples/found/dust/5.mp3` (Granular hiss), `samples/found/dust/6.mp3` (Vinyl dust) |
+| Bubbles | `samples/found/bubbles/1.mp3` (Bubble blip), `samples/found/bubbles/2.mp3` (Bubble pair), `samples/found/bubbles/3.mp3` (Fizz), `samples/found/bubbles/4.mp3` (Gloop), `samples/found/bubbles/5.mp3` (Cell burst), `samples/found/bubbles/6.mp3` (Agar plop) |
+| Body | `samples/found/body/1.mp3` (Finger snap), `samples/found/body/2.mp3` (Hand clap), `samples/found/body/3.mp3` (Chest thump), `samples/found/body/4.mp3` (Thigh slap), `samples/found/body/5.mp3` (Knuckle crack), `samples/found/body/6.mp3` (Heartbeat) |
+
 ## Drum kits (generated, CC0)
 
 Synthesised from scratch in JavaScript by `scripts/gen-drums.mjs` (oscillators, filtered noise, envelopes, a small room reverb) and encoded to MP3 — no recordings of third-party material. Dedicated to the public domain under CC0 1.0.
@@ -141,7 +173,7 @@ Synthesised from scratch in JavaScript by `scripts/gen-drums.mjs` (oscillators, 
 
 ## Loops
 
-The 110 loops and 8 genre templates are original pattern data (notes, not audio) written for Cilia (`src/data/loops.ts`), CC0. They play through the instruments and kits above.
+The loops and style templates are original pattern data (notes, not audio) written for Cilia (`src/data/loops.ts`), CC0. They play through the instruments and kits above.
 
 
 ---
